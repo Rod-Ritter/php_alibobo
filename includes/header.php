@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Alibobo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     

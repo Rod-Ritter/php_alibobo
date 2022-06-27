@@ -1,0 +1,15 @@
+footer{
+    min-height: 80%;
+    border-color: rgb(181, 181, 181);
+    position: absolute;
+    bottom: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+   
+}
+
+footer p{
+    text-align: center;
+
+
+}
