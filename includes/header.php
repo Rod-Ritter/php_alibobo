@@ -13,8 +13,8 @@
 
         <nav>
             <ul>
-                <li><a href="index.php?page=acceuil">Acceuil</li>
-                <li><a href="index.php?page=article">Articles</li>
+                <li><a href="index.php?page=accueil">Accueil</li>
+                <li><a href="index.php?page=articles">Articles</li>
                 <li><a href="index.php?page=inscription">Inscription</li>
                 <li><a href="index.php?page=login">Login</li>
             </ul>
