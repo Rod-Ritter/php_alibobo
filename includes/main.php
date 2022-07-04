@@ -3,7 +3,15 @@
 
     <?php
 
-    dump($GET);
+//    $page = $_GET ['page'];
+//    dump($page);
+
+if (isset($_GET['page'])){
+    $page =$_GET['page'];
+    dump($page);
+}
+else
+$page ="acceuil";
 
 
 
