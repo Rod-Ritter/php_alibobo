@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alibobo</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="./assets/css/style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>Header</h1>
-
+        <h1>PHP Fred</h1>
         <nav>
             <ul>
-                <li><a href="index.php?page=accueil">Accueil</li>
-                <li><a href="index.php?page=articles">Articles</li>
-                <li><a href="index.php?page=inscription">Inscription</li>
-                <li><a href="index.php?page=login">Login</li>
+                <li><a href="index.php?page=accueil">Accueil</a></li>
+                <li><a href="index.php?page=articles">Articles</a></li>
+                <li><a href="index.php?page=inscription">Inscription</a></li>
+                <li><a href="index.php?page=login">Login</a></li>
             </ul>
         </nav>
     </header>
