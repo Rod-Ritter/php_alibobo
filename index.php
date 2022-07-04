@@ -1,20 +1,15 @@
 <?php
 
 require_once './functions/autoLoad.php';
+autoLoad("*.php");
 
-// definir le fuseau horraire dans lequel le seveur se trouve
-date_default_timezone_set ('Europe/Paris');
+// Définir le fuseau horaire dans lequel le serveur se trouve
+date_default_timezone_set('Europe/Paris');
 
-include './includes/header.php';
-include './includes/main.php';
-include './includes/footer.php';
-
-// require './includes/header.php';
-// require './includes/main.php';
-// require './includes/footer.php';
-
-// include renvoie un avertissement simple 
-// require renvoie une erreur fatale
-
-// requiere once 
-
+/* Utiliser include ou require
+* include renvoie un avertissement simple en cas d'erreur
+* require renvoie une erreur fatale et arrête l'exécution du script
+*/
+require_once './includes/header.php';
+require_once './includes/main.php';
+require_once './includes/footer.php';
