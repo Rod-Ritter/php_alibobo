@@ -1,7 +1,6 @@
-header{
+header {
     width: 80%;
-    background-color: gray;
+    background-color: #BBB;
     min-height: 60px;
-    margin: 0,auto;
-    
-}
+    margin: 0 auto;
+} 

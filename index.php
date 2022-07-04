@@ -1,5 +1,9 @@
 <?php
 
+echo "<pre>";
+var_dump($_SERVER);
+echo "</pre>";
+
 // definir le fuseau horraire dans lequel le seveur se trouve
 date_default_timezone_set ('Europe/Paris');
 
