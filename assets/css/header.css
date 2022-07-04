@@ -1,7 +1,7 @@
 header {
     width: 80%;
     background-color: #e87000;
-    min-height: 60px;
+    min-height: 80px;
     margin: 0 auto;
 } 
 nav{
@@ -9,5 +9,7 @@ nav{
 }
 nav ul{
     display: flex;
-    
+    justify-content: flex-end;
+    gap: 2rem;
 }
+
