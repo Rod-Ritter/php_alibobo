@@ -4,3 +4,10 @@ header {
     min-height: 60px;
     margin: 0 auto;
 } 
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    
+}
