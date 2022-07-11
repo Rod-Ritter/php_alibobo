@@ -5,3 +5,4 @@ function dump($test) {
     var_dump($test);
     echo "</pre>";
 }
+?>
